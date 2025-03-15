@@ -1,0 +1,61 @@
+{
+  "projectName": "Hesiod Loan Origination",
+  "rules": [
+    {
+      "name": "Consistent code style",
+      "description": "Use consistent naming conventions, indentation, and formatting across the codebase",
+      "pattern": "**/*.{ts,tsx,js,jsx}",
+      "enforcementLevel": "warning"
+    },
+    {
+      "name": "React component organization",
+      "description": "Each React component should be in its own file. Use functional components with hooks.",
+      "pattern": "frontend/src/components/**/*.tsx",
+      "enforcementLevel": "error"
+    },
+    {
+      "name": "API endpoint organization",
+      "description": "Backend endpoints should be organized by feature in separate route files",
+      "pattern": "backend/src/routes/**/*.ts",
+      "enforcementLevel": "error"
+    },
+    {
+      "name": "Type safety",
+      "description": "All functions should have proper type annotations. Avoid using 'any' type.",
+      "pattern": "**/*.{ts,tsx}",
+      "enforcementLevel": "warning"
+    },
+    {
+      "name": "Environment variables",
+      "description": "Never hard-code sensitive information. Use environment variables for configuration.",
+      "pattern": "**/*.{ts,tsx,js,jsx}",
+      "enforcementLevel": "error"
+    }
+  ],
+  "modelContextPrompts": [
+    {
+      "name": "General code context",
+      "description": "This is a fullstack web application for loan origination using React TypeScript for frontend and Node.js Express for backend, with Supabase as the database.",
+      "pattern": "**/*.{ts,tsx,js,jsx}",
+      "prompt": "This fullstack application is for loan origination. The frontend uses React with TypeScript, and the backend uses Node.js with Express. Supabase is used for database and authentication."
+    },
+    {
+      "name": "Frontend component context",
+      "description": "Context for React components",
+      "pattern": "frontend/src/components/**/*.tsx",
+      "prompt": "This is a React component for the loan origination platform. Components should be functional and use React hooks. Prefer composition over inheritance. Use TypeScript properly with explicit type definitions."
+    },
+    {
+      "name": "API route context",
+      "description": "Context for backend API routes",
+      "pattern": "backend/src/routes/**/*.ts",
+      "prompt": "This file defines API routes for the loan origination platform. Routes should follow RESTful principles. Use proper middleware for validation, authentication, and error handling. Each route should be documented with JSDoc."
+    },
+    {
+      "name": "Supabase context",
+      "description": "Context for Supabase database interactions",
+      "pattern": "**/*supabase*.{ts,tsx}",
+      "prompt": "This file interacts with Supabase, the PostgreSQL database service. Use the Supabase client properly and ensure error handling is in place. Keep in mind RLS (Row Level Security) for secured access."
+    }
+  ]
+} 

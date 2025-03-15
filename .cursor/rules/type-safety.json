@@ -1,0 +1,6 @@
+{
+  "name": "Type safety",
+  "description": "All functions should have proper type annotations. Avoid using 'any' type.",
+  "pattern": "**/*.{ts,tsx}",
+  "enforcementLevel": "warning"
+} 

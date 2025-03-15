@@ -57,4 +57,11 @@ frontend/build
 
 # Backend build
 backend/dist
-backend/build 
+backend/build
+
+# Sensitive configuration files
+mcp.json
+**/mcp.json
+**/mcp*.json
+.cursor/mcp.json
+.cursor/mcp/*.json 

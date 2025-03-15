@@ -1,0 +1,6 @@
+{
+  "name": "General code context",
+  "description": "This is a fullstack web application for loan origination using React TypeScript for frontend and Node.js Express for backend, with Supabase as the database.",
+  "pattern": "**/*.{ts,tsx,js,jsx}",
+  "prompt": "This fullstack application is for loan origination. The frontend uses React with TypeScript, and the backend uses Node.js with Express. Supabase is used for database and authentication."
+} 

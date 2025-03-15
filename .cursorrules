@@ -1,0 +1,35 @@
+{
+  "projectName": "Hesiod Loan Origination",
+  "rules": [
+    {
+      "name": "Consistent code style",
+      "description": "Use consistent naming conventions, indentation, and formatting across the codebase",
+      "pattern": "**/*.{ts,tsx,js,jsx}",
+      "enforcementLevel": "warning"
+    },
+    {
+      "name": "React component organization",
+      "description": "Each React component should be in its own file. Use functional components with hooks.",
+      "pattern": "frontend/src/components/**/*.tsx",
+      "enforcementLevel": "error"
+    },
+    {
+      "name": "API endpoint organization",
+      "description": "Backend endpoints should be organized by feature in separate route files",
+      "pattern": "backend/src/routes/**/*.ts",
+      "enforcementLevel": "error"
+    },
+    {
+      "name": "Type safety",
+      "description": "All functions should have proper type annotations. Avoid using 'any' type.",
+      "pattern": "**/*.{ts,tsx}",
+      "enforcementLevel": "warning"
+    },
+    {
+      "name": "Environment variables",
+      "description": "Never hard-code sensitive information. Use environment variables for configuration.",
+      "pattern": "**/*.{ts,tsx,js,jsx}",
+      "enforcementLevel": "error"
+    }
+  ]
+} 

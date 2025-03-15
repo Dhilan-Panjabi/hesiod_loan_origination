@@ -1,0 +1,6 @@
+{
+  "name": "API route context",
+  "description": "Context for backend API routes",
+  "pattern": "backend/src/routes/**/*.ts",
+  "prompt": "This file defines API routes for the loan origination platform. Routes should follow RESTful principles. Use proper middleware for validation, authentication, and error handling. Each route should be documented with JSDoc."
+} 

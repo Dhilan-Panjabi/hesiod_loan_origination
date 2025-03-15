@@ -1,0 +1,6 @@
+{
+  "name": "Frontend component context",
+  "description": "Context for React components",
+  "pattern": "frontend/src/components/**/*.tsx",
+  "prompt": "This is a React component for the loan origination platform. Components should be functional and use React hooks. Prefer composition over inheritance. Use TypeScript properly with explicit type definitions."
+} 

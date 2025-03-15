@@ -1,0 +1,6 @@
+{
+  "name": "Supabase context",
+  "description": "Context for Supabase database interactions",
+  "pattern": "**/*supabase*.{ts,tsx}",
+  "prompt": "This file interacts with Supabase, the PostgreSQL database service. Use the Supabase client properly and ensure error handling is in place. Keep in mind RLS (Row Level Security) for secured access."
+} 

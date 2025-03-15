@@ -1,0 +1,6 @@
+{
+  "name": "React component organization",
+  "description": "Each React component should be in its own file. Use functional components with hooks.",
+  "pattern": "frontend/src/components/**/*.tsx",
+  "enforcementLevel": "error"
+} 

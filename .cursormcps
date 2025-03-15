@@ -1,0 +1,29 @@
+{
+  "projectName": "Hesiod Loan Origination",
+  "modelContextPrompts": [
+    {
+      "name": "General code context",
+      "description": "This is a fullstack web application for loan origination using React TypeScript for frontend and Node.js Express for backend, with Supabase as the database.",
+      "pattern": "**/*.{ts,tsx,js,jsx}",
+      "prompt": "This fullstack application is for loan origination. The frontend uses React with TypeScript, and the backend uses Node.js with Express. Supabase is used for database and authentication."
+    },
+    {
+      "name": "Frontend component context",
+      "description": "Context for React components",
+      "pattern": "frontend/src/components/**/*.tsx",
+      "prompt": "This is a React component for the loan origination platform. Components should be functional and use React hooks. Prefer composition over inheritance. Use TypeScript properly with explicit type definitions."
+    },
+    {
+      "name": "API route context",
+      "description": "Context for backend API routes",
+      "pattern": "backend/src/routes/**/*.ts",
+      "prompt": "This file defines API routes for the loan origination platform. Routes should follow RESTful principles. Use proper middleware for validation, authentication, and error handling. Each route should be documented with JSDoc."
+    },
+    {
+      "name": "Supabase context",
+      "description": "Context for Supabase database interactions",
+      "pattern": "**/*supabase*.{ts,tsx}",
+      "prompt": "This file interacts with Supabase, the PostgreSQL database service. Use the Supabase client properly and ensure error handling is in place. Keep in mind RLS (Row Level Security) for secured access."
+    }
+  ]
+} 

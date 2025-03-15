@@ -1,0 +1,6 @@
+{
+  "name": "Consistent code style",
+  "description": "Use consistent naming conventions, indentation, and formatting across the codebase",
+  "pattern": "**/*.{ts,tsx,js,jsx}",
+  "enforcementLevel": "warning"
+} 

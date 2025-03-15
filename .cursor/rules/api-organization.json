@@ -1,0 +1,6 @@
+{
+  "name": "API endpoint organization",
+  "description": "Backend endpoints should be organized by feature in separate route files",
+  "pattern": "backend/src/routes/**/*.ts",
+  "enforcementLevel": "error"
+} 

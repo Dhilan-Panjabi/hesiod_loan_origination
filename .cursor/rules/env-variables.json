@@ -1,0 +1,6 @@
+{
+  "name": "Environment variables",
+  "description": "Never hard-code sensitive information. Use environment variables for configuration.",
+  "pattern": "**/*.{ts,tsx,js,jsx}",
+  "enforcementLevel": "error"
+} 

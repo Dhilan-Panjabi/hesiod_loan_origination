@@ -1,0 +1,5 @@
+{
+  "projectName": "Hesiod Loan Origination",
+  "rulesDir": "./rules",
+  "modelContextPromptsDir": "./model-context-prompts"
+} 
